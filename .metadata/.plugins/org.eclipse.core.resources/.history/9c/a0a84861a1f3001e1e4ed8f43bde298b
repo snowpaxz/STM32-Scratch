@@ -1,0 +1,18 @@
+/*
+ * i2c_hal_grove_lcd.c
+ *
+ *  Created on: Apr 5, 2024
+ *      Author: lars
+ */
+#import "stm32l1xx_hal.h"
+#import <stdint.h>
+
+void clear_screen(void)
+{
+	uint16_t DevAddress = 0;
+	uint8_t *data = 0;
+	uint16_t size = 0;
+	uint32_t timeout = 0;
+
+	HAL_I2C_Master_Transmit(hi2c, DevAddress, data, size, timeout);
+}

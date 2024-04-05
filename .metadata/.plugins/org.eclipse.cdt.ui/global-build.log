@@ -1,121 +1,40 @@
-12:55:31 **** Incremental Build of configuration Debug for project DataLogger ****
+16:42:09 **** Incremental Build of configuration Debug for project i2c_HAL ****
 make -j8 all 
-arm-none-eabi-gcc "../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L152xE -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal.d" -MT"Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal.o"
-arm-none-eabi-gcc "../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_cortex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L152xE -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_cortex.d" -MT"Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_cortex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_cortex.o"
-arm-none-eabi-gcc "../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_dma.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L152xE -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_dma.d" -MT"Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_dma.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_dma.o"
-arm-none-eabi-gcc "../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_exti.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L152xE -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_exti.d" -MT"Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_exti.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_exti.o"
-arm-none-eabi-gcc "../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_flash.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L152xE -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_flash.d" -MT"Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_flash.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_flash.o"
-arm-none-eabi-gcc "../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_flash_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L152xE -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_flash_ex.d" -MT"Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_flash_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_flash_ex.o"
-arm-none-eabi-gcc "../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_flash_ramfunc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L152xE -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_flash_ramfunc.d" -MT"Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_flash_ramfunc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_flash_ramfunc.o"
-arm-none-eabi-gcc "../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_gpio.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L152xE -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_gpio.d" -MT"Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_gpio.o"
-arm-none-eabi-gcc "../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pwr.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L152xE -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pwr.d" -MT"Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pwr.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pwr.o"
-arm-none-eabi-gcc "../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pwr_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L152xE -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pwr_ex.d" -MT"Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pwr_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pwr_ex.o"
-arm-none-eabi-gcc "../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L152xE -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc.d" -MT"Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc.o"
-arm-none-eabi-gcc "../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L152xE -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc_ex.d" -MT"Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc_ex.o"
-arm-none-eabi-gcc "../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L152xE -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi.d" -MT"Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi.o"
-arm-none-eabi-gcc "../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_tim.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L152xE -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_tim.d" -MT"Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_tim.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_tim.o"
-arm-none-eabi-gcc "../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_tim_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L152xE -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_tim_ex.d" -MT"Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_tim_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_tim_ex.o"
-arm-none-eabi-gcc "../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_uart.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L152xE -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_uart.d" -MT"Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_uart.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_uart.o"
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L152xE -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc "../Core/Src/my_eeprom.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L152xE -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/my_eeprom.d" -MT"Core/Src/my_eeprom.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/my_eeprom.o"
+arm-none-eabi-gcc "../Core/Src/main1.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L152xE -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main1.d" -MT"Core/Src/main1.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main1.o"
 arm-none-eabi-gcc "../Core/Src/stm32l1xx_hal_msp.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L152xE -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32l1xx_hal_msp.d" -MT"Core/Src/stm32l1xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32l1xx_hal_msp.o"
 arm-none-eabi-gcc "../Core/Src/stm32l1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L152xE -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32l1xx_it.d" -MT"Core/Src/stm32l1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32l1xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L152xE -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L152xE -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/sysmem.o"
 arm-none-eabi-gcc "../Core/Src/system_stm32l1xx.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L152xE -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32l1xx.d" -MT"Core/Src/system_stm32l1xx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/system_stm32l1xx.o"
-In file included from ../Core/Src/main.c:20:
-../Core/Inc/my_eeprom.h:13:13: warning: 'MY_SPI1_Init' used but never defined
-   13 | static void MY_SPI1_Init(void);
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:51:21: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+   51 |             sprintf(Buffer, "0x%X", i);
+      |                     ^~~~~~
+      |                     |
+      |                     uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:13:
+/opt/st/stm32cubeide_1.14.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.100.202309141235/tools/arm-none-eabi/include/stdio.h:254:18: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  254 | int     sprintf (char *__restrict, const char *__restrict, ...)
+      |                  ^
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:24:13: warning: 'MX_GPIO_Init' used but never defined
+   24 | static void MX_GPIO_Init(void);
       |             ^~~~~~~~~~~~
-../Core/Src/my_eeprom.c:10:1: error: unknown type name 'SPI_HandleTypeDef'; did you mean 'EXTI_HandleTypeDef'?
-   10 | SPI_HandleTypeDef hspi1;
-      | ^~~~~~~~~~~~~~~~~
-      | EXTI_HandleTypeDef
-../Core/Src/my_eeprom.c: In function 'MY_SPI1_Init':
-../Core/Src/my_eeprom.c:30:8: error: request for member 'Instance' in something not a structure or union
-   30 |   hspi1.Instance = SPI1;
-      |        ^
-../Core/Src/my_eeprom.c:31:8: error: request for member 'Init' in something not a structure or union
-   31 |   hspi1.Init.Mode = SPI_MODE_MASTER;
-      |        ^
-../Core/Src/stm32l1xx_hal_msp.c:89:22: error: unknown type name 'SPI_HandleTypeDef'; did you mean 'EXTI_HandleTypeDef'?
-   89 | void HAL_SPI_MspInit(SPI_HandleTypeDef* hspi)
-      |                      ^~~~~~~~~~~~~~~~~
-      |                      EXTI_HandleTypeDef
-../Core/Src/stm32l1xx_hal_msp.c:126:24: error: unknown type name 'SPI_HandleTypeDef'; did you mean 'EXTI_HandleTypeDef'?
-  126 | void HAL_SPI_MspDeInit(SPI_HandleTypeDef* hspi)
-      |                        ^~~~~~~~~~~~~~~~~
-      |                        EXTI_HandleTypeDef
-../Core/Src/my_eeprom.c:31:21: error: 'SPI_MODE_MASTER' undeclared (first use in this function)
-   31 |   hspi1.Init.Mode = SPI_MODE_MASTER;
-      |                     ^~~~~~~~~~~~~~~
-../Core/Src/my_eeprom.c:31:21: note: each undeclared identifier is reported only once for each function it appears in
-../Core/Src/my_eeprom.c:32:8: error: request for member 'Init' in something not a structure or union
-   32 |   hspi1.Init.Direction = SPI_DIRECTION_2LINES;
-      |        ^
-make: *** [Core/Src/subdir.mk:37: Core/Src/stm32l1xx_hal_msp.o] Error 1
-make: *** Waiting for unfinished jobs....
-../Core/Src/my_eeprom.c:32:26: error: 'SPI_DIRECTION_2LINES' undeclared (first use in this function)
-   32 |   hspi1.Init.Direction = SPI_DIRECTION_2LINES;
-      |                          ^~~~~~~~~~~~~~~~~~~~
-../Core/Src/my_eeprom.c:33:8: error: request for member 'Init' in something not a structure or union
-   33 |   hspi1.Init.DataSize = SPI_DATASIZE_8BIT;
-      |        ^
-../Core/Src/my_eeprom.c:33:25: error: 'SPI_DATASIZE_8BIT' undeclared (first use in this function)
-   33 |   hspi1.Init.DataSize = SPI_DATASIZE_8BIT;
-      |                         ^~~~~~~~~~~~~~~~~
-../Core/Src/my_eeprom.c:34:8: error: request for member 'Init' in something not a structure or union
-   34 |   hspi1.Init.CLKPolarity = SPI_POLARITY_LOW;
-      |        ^
-../Core/Src/my_eeprom.c:34:28: error: 'SPI_POLARITY_LOW' undeclared (first use in this function)
-   34 |   hspi1.Init.CLKPolarity = SPI_POLARITY_LOW;
-      |                            ^~~~~~~~~~~~~~~~
-../Core/Src/my_eeprom.c:35:8: error: request for member 'Init' in something not a structure or union
-   35 |   hspi1.Init.CLKPhase = SPI_PHASE_1EDGE;
-      |        ^
-../Core/Src/my_eeprom.c:35:25: error: 'SPI_PHASE_1EDGE' undeclared (first use in this function)
-   35 |   hspi1.Init.CLKPhase = SPI_PHASE_1EDGE;
-      |                         ^~~~~~~~~~~~~~~
-../Core/Src/my_eeprom.c:36:8: error: request for member 'Init' in something not a structure or union
-   36 |   hspi1.Init.NSS = SPI_NSS_SOFT;
-      |        ^
-../Core/Src/my_eeprom.c:36:20: error: 'SPI_NSS_SOFT' undeclared (first use in this function)
-   36 |   hspi1.Init.NSS = SPI_NSS_SOFT;
-      |                    ^~~~~~~~~~~~
-../Core/Src/my_eeprom.c:37:8: error: request for member 'Init' in something not a structure or union
-   37 |   hspi1.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_2;
-      |        ^
-../Core/Src/my_eeprom.c:37:34: error: 'SPI_BAUDRATEPRESCALER_2' undeclared (first use in this function)
-   37 |   hspi1.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_2;
-      |                                  ^~~~~~~~~~~~~~~~~~~~~~~
-../Core/Src/my_eeprom.c:38:8: error: request for member 'Init' in something not a structure or union
-   38 |   hspi1.Init.FirstBit = SPI_FIRSTBIT_MSB;
-      |        ^
-../Core/Src/my_eeprom.c:38:25: error: 'SPI_FIRSTBIT_MSB' undeclared (first use in this function)
-   38 |   hspi1.Init.FirstBit = SPI_FIRSTBIT_MSB;
-      |                         ^~~~~~~~~~~~~~~~
-../Core/Src/my_eeprom.c:39:8: error: request for member 'Init' in something not a structure or union
-   39 |   hspi1.Init.TIMode = SPI_TIMODE_DISABLE;
-      |        ^
-../Core/Src/my_eeprom.c:39:23: error: 'SPI_TIMODE_DISABLE' undeclared (first use in this function); did you mean 'SPI_TIMODE_DISABLED'?
-   39 |   hspi1.Init.TIMode = SPI_TIMODE_DISABLE;
-      |                       ^~~~~~~~~~~~~~~~~~
-      |                       SPI_TIMODE_DISABLED
-../Core/Src/my_eeprom.c:40:8: error: request for member 'Init' in something not a structure or union
-   40 |   hspi1.Init.CRCCalculation = SPI_CRCCALCULATION_DISABLE;
-      |        ^
-../Core/Src/my_eeprom.c:40:31: error: 'SPI_CRCCALCULATION_DISABLE' undeclared (first use in this function); did you mean 'SPI_CRCCALCULATION_DISABLED'?
-   40 |   hspi1.Init.CRCCalculation = SPI_CRCCALCULATION_DISABLE;
-      |                               ^~~~~~~~~~~~~~~~~~~~~~~~~~
-      |                               SPI_CRCCALCULATION_DISABLED
-../Core/Src/my_eeprom.c:41:8: error: request for member 'Init' in something not a structure or union
-   41 |   hspi1.Init.CRCPolynomial = 10;
-      |        ^
-../Core/Src/my_eeprom.c:42:7: warning: implicit declaration of function 'HAL_SPI_Init'; did you mean 'HAL_GPIO_Init'? [-Wimplicit-function-declaration]
-   42 |   if (HAL_SPI_Init(&hspi1) != HAL_OK)
-      |       ^~~~~~~~~~~~
-      |       HAL_GPIO_Init
-At top level:
-../Core/Src/my_eeprom.c:19:13: warning: 'MY_SPI1_Init' defined but not used [-Wunused-function]
-   19 | static void MY_SPI1_Init(void)
+../Core/Src/main.c:25:13: warning: 'MX_I2C1_Init' used but never defined
+   25 | static void MX_I2C1_Init(void);
       |             ^~~~~~~~~~~~
-make: *** [Core/Src/subdir.mk:37: Core/Src/my_eeprom.o] Error 1
+../Core/Src/main.c:26:13: warning: 'MX_USART1_UART_Init' used but never defined
+   26 | static void MX_USART1_UART_Init(void);
+      |             ^~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "i2c_HAL.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/lars/Documents/STM32/i2c_HAL/STM32L152RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="i2c_HAL.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+/opt/st/stm32cubeide_1.14.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main1.o:/home/lars/Documents/STM32/i2c_HAL/Debug/../Core/Src/main1.c:43: multiple definition of `hi2c1'; ./Core/Src/main.o:/home/lars/Documents/STM32/i2c_HAL/Debug/../Core/Src/main.c:15: first defined here
+/opt/st/stm32cubeide_1.14.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main1.o: in function `main':
+/home/lars/Documents/STM32/i2c_HAL/Debug/../Core/Src/main1.c:72: multiple definition of `main'; ./Core/Src/main.o:/home/lars/Documents/STM32/i2c_HAL/Debug/../Core/Src/main.c:29: first defined here
+/opt/st/stm32cubeide_1.14.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main.o: in function `main':
+/home/lars/Documents/STM32/i2c_HAL/Debug/../Core/Src/main.c:34: undefined reference to `MX_GPIO_Init'
+/opt/st/stm32cubeide_1.14.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld: /home/lars/Documents/STM32/i2c_HAL/Debug/../Core/Src/main.c:35: undefined reference to `MX_I2C1_Init'
+/opt/st/stm32cubeide_1.14.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld: /home/lars/Documents/STM32/i2c_HAL/Debug/../Core/Src/main.c:36: undefined reference to `MX_USART1_UART_Init'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:64: i2c_HAL.elf] Error 1
 "make -j8 all" terminated with exit code 2. Build might be incomplete.
