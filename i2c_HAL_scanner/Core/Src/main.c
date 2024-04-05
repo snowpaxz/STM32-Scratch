@@ -8,7 +8,10 @@
 * Visit Website: www.DeepBlueMbedded.com
 *
 */
+<<<<<<< HEAD
 //Fixed
+=======
+>>>>>>> refs/remotes/origin/main
 
 #include "main.h"
 #include "stdio.h"
