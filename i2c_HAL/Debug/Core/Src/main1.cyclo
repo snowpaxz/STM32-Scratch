@@ -1,9 +1,0 @@
-../Core/Src/main1.c:71:5:main	1
-../Core/Src/main1.c:118:6:SystemClock_Config	3
-../Core/Src/main1.c:162:13:MX_I2C1_Init	2
-../Core/Src/main1.c:196:13:MX_USART2_UART_Init	2
-../Core/Src/main1.c:229:13:MX_GPIO_Init	1
-../Core/Src/main1.c:268:6:clear_screen	1
-../Core/Src/main1.c:277:6:print_char	1
-../Core/Src/main1.c:286:6:blink_cursor	1
-../Core/Src/main1.c:302:6:Error_Handler	1
