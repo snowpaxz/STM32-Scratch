@@ -377,3 +377,6 @@ org.eclipse.core.runtime.CoreException: Cannot determine URI for '/DataLogger/Co
 
 !ENTRY org.eclipse.cdt.core 1 0 2024-04-05 15:52:49.562
 !MESSAGE Indexed 'i2c_HAL' (21 sources, 81 headers) in 1.99 sec: 4,470 declarations; 20,194 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0081%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-05 16:56:42.256
+!MESSAGE Indexed 'i2c_HAL' (39 sources, 140 headers) in 1.36 sec: 12,624 declarations; 67,459 references; 2 unresolved inclusions; 29 syntax errors; 149 unresolved names (0.19%)
