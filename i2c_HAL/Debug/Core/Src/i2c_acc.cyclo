@@ -1,0 +1,9 @@
+../Core/Src/i2c_acc.c:18:6:configure_vma208	1
+../Core/Src/i2c_acc.c:36:6:read_whoami	1
+../Core/Src/i2c_acc.c:41:6:read_status	1
+../Core/Src/i2c_acc.c:46:6:read_x	1
+../Core/Src/i2c_acc.c:51:6:read_y	1
+../Core/Src/i2c_acc.c:56:6:read_z	1
+../Core/Src/i2c_acc.c:61:6:read_xyz	1
+../Core/Src/i2c_acc.c:65:26:command	1
+../Core/Src/i2c_acc.c:71:26:read_register	1

@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;DataLogger/Core/Inc/eeprom.h&apos; to &apos;my_eeprom.h&apos;" description="Rename resource &apos;eeprom.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Inc/eeprom.h" name="my_eeprom.h" stamp="1712259864932" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;DataLogger/Core/Src/eeprom.c&apos; to &apos;my_eeprom.c&apos;" description="Rename resource &apos;eeprom.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/eeprom.c" name="my_eeprom.c" stamp="1712259873262" updateReferences="true"/>
-</session>

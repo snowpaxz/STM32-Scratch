@@ -1,0 +1,47 @@
+/*
+ * i2c_uss.c
+ *
+ *  Created on: Apr 12, 2024
+ *      Author: lars
+ */
+
+#include "i2c_acc.h"
+
+
+
+static const uint16_t dev_id = 0x1C << 1;
+static I2C_HandleTypeDef i2c_handle;
+
+static HAL_StatusTypeDef command(uint8_t reg, uint8_t val);
+static HAL_StatusTypeDef read_register(uint8_t reg, uint8_t *data, uint8_t size);
+
+void configure_vma208(I2C_HandleTypeDef i2ch)
+{
+	i2c_handle = i2ch;
+
+	HAL_Delay(15);
+}
+
+uint8_t read_whoami(void)
+{
+	uint8_t data[1];
+	read_register(0x0D, data, 1);
+	return data[0];
+}
+
+static HAL_StatusTypeDef command(uint8_t reg, uint8_t val)
+{
+	uint8_t data[] = {reg, val};
+	return HAL_I2C_Master_Transmit(&i2c_handle, dev_id, data, 2, 100);
+}
+
+static HAL_StatusTypeDef read_register(uint8_t reg, uint8_t *data, uint8_t size)
+{
+	HAL_StatusTypeDef ret;
+	data[0] = reg;
+	HAL_I2C_Master_Transmit(&i2c_handle, dev_id, data, 1, 100);
+	HAL_Delay(10);
+	ret = HAL_I2C_Master_Receive(&i2c_handle, dev_id, data, size, 100);
+
+	return ret;
+}

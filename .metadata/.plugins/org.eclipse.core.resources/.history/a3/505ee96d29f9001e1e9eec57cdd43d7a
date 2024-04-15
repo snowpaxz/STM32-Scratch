@@ -1,0 +1,13 @@
+/*
+ * i2c_uss.h
+ *
+ *  Created on: Apr 12, 2024
+ *      Author: lars
+ */
+
+#ifndef INC_I2C_USS_H_
+#define INC_I2C_USS_H_
+
+
+
+#endif /* INC_I2C_USS_H_ */

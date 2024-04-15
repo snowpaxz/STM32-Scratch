@@ -1,10 +1,10 @@
-16:52:10 **** Incremental Build of configuration Debug for project i2c_HAL ****
+16:24:51 **** Incremental Build of configuration Debug for project i2c_HAL ****
 make -j8 all 
 arm-none-eabi-size  i2c_HAL.elf 
    text	   data	    bss	    dec	    hex	filename
-  12304	    144	   2088	  14536	   38c8	i2c_HAL.elf
+  18540	    100	   2236	  20876	   518c	i2c_HAL.elf
 Finished building: default.size.stdout
  
 
-16:52:10 Build Finished. 0 errors, 0 warnings. (took 178ms)
+16:24:51 Build Finished. 0 errors, 0 warnings. (took 392ms)
 

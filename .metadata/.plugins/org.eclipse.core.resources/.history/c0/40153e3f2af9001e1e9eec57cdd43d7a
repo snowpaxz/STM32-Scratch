@@ -1,0 +1,12 @@
+/*
+ * i2c_uss.c
+ *
+ *  Created on: Apr 12, 2024
+ *      Author: lars
+ */
+
+#include <i2c_acc.h>
+#include "stm32l1xx_hal.h"
+#include <stdint.h>
+
+

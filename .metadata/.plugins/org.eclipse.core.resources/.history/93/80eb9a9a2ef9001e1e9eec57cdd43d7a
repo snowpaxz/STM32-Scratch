@@ -1,0 +1,13 @@
+/*
+ * i2c_uss.h
+ *
+ *  Created on: Apr 12, 2024
+ *      Author: lars
+ */
+
+#ifndef INC_I2C_ACC_H_
+#define INC_I2C_ACC_H_
+
+uint8_t read_whoami(void);
+
+#endif /* INC_I2C_ACC_H_ */

@@ -1,0 +1,10 @@
+../Core/Src/i2c_lcd.c:40:19:configure_i2c_lcd	5
+../Core/Src/i2c_lcd.c:106:19:lcd_write	1
+../Core/Src/i2c_lcd.c:112:19:lcd_writes	3
+../Core/Src/i2c_lcd.c:131:19:lcd_clear	1
+../Core/Src/i2c_lcd.c:138:19:ctrl_lcd_display	1
+../Core/Src/i2c_lcd.c:145:19:ctrl_lcd_nodisplay	1
+../Core/Src/i2c_lcd.c:152:19:ctrl_lcd_blink	1
+../Core/Src/i2c_lcd.c:159:19:ctrl_lcd_noblink	1
+../Core/Src/i2c_lcd.c:166:19:set_row_col	2
+../Core/Src/i2c_lcd.c:177:26:command	1
